@@ -1,0 +1,5 @@
+build:
+  src:
+  - 'src/js/<%= pkg.name %>.js'
+  - 'src/tags/**/*.tag'
+  dest: '<%= pkg.path.build %>/js/<%= pkg.name %>.js'

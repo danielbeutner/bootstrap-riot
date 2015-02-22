@@ -1,0 +1,8 @@
+options:
+    template : 'jade'
+prebuild:
+    expand: true,
+    cwd: 'src/tags'
+    src: '**/*.tag.jade'
+    dest: 'src/js/tags'
+    ext: '.js'

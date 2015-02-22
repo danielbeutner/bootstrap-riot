@@ -1,0 +1,41 @@
+{
+  "name": "bootstrap-riot",
+  "version": "0.0.1",
+  "description": "Bootstrap on Riot",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "install": "grunt dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "path": {
+    "build": "./build",
+    "dist": "./dist"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:danielditgens/bootstrap-riot.git"
+  },
+  "author": "Daniel Ditgens",
+  "license": "MIT",
+  "devDependencies": {
+    "folderify": "^0.6.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.3.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jade": "^0.14.1",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-cssmetrics": "^0.1.4",
+    "grunt-riot": "0.0.9",
+    "jade": "^1.9.2",
+    "jit-grunt": "^0.9.1",
+    "lodash": "^3.3.0",
+    "riot": "^2.0.10",
+    "time-grunt": "^1.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.2",
+    "jquery": "^1.11.2"
+  }
+}

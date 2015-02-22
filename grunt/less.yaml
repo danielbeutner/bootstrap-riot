@@ -1,0 +1,13 @@
+build:
+  options:
+    compress: false
+    dumpLineNumbers: false
+    syncImport: true
+    strictImports: true
+    sourceMap: true
+    outputSourceFiles: true
+    sourceMapFilename: '<%= pkg.path.build %>/css/<%= pkg.name %>.css.map'
+    sourceMapURL: '<%= pkg.name %>.css.map'
+  src:
+    - 'src/less/<%= pkg.name %>.less'
+  dest: '<%= pkg.path.build %>/css/<%= pkg.name %>.css'

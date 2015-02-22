@@ -1,0 +1,8 @@
+index:
+  options:
+    pretty: true
+    data:
+      debug: false
+      source: '<%= pkg.name %>'
+  files:
+    - '<%= pkg.path.build %>/index.html': 'src/index.jade'

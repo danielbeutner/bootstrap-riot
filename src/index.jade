@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title bootstrap-riot
+    meta(charset="UTF-8")
+    link(rel="stylesheet" href="css/#{source}.css")
+  body
+    grid
+      column(md=6)
+        div.jumbotron
+          h1 Hello World
+          p bootstrap + riot
+          btn(state='success' size='lg') Press me
+      column(md=6)
+        div.jumbotron
+          h1 Hello, you!
+          p you + me
+          btn(state='danger' size='lg') Press you
+    script(type='text/javascript' src="js/#{source}.js")

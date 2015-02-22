@@ -1,0 +1,8 @@
+build:
+  src: '<%= pkg.path.build %>/'
+dist:
+  src: '<%= pkg.path.dist %>'
+pre:
+  src:
+  - 'src/js/tags'
+  - 'src/js/tags.js'

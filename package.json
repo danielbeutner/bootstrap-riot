@@ -15,6 +15,13 @@
       "type": "git",
       "url": "git@github.com:danielditgens/bootstrap-riot.git"
   },
+  "keywords": [
+        "bootstrap",
+        "riot",
+        "grunt",
+        "node",
+        "nodejs"
+    ],
   "author": "Daniel Ditgens",
   "license": "MIT",
   "devDependencies": {

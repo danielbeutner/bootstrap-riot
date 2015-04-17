@@ -1,8 +1,7 @@
-window.$ = window.jQuery = require('jquery');
 window.r = window.riot = require('riot');
+window.$ = window.jQuery = require('jquery');
 
-var bootstrap = require('bootstrap'),
-    tags = require('./tags');
+var tags = require('./tags');
 
 // <content>
 r.tag('content', '', function (opts) {

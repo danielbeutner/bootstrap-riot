@@ -16,4 +16,25 @@ html(lang="en")
           h1 Hello, you!
           p you + me
           btn(state='danger' size='lg') Press you
+    grid
+      column(md=12)
+        table.table
+          thead
+            tr
+              th #
+              th Name
+              th Surname
+              th Age
+          tbody
+            tr
+              td 1
+              td Kevin
+              td Jackson
+              td 29
+            tr
+              td 2
+              td Zachery
+              td Tremmo
+              td 30
+
     script(type='text/javascript' src="js/#{source}.js")
